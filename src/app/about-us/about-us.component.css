@@ -1,0 +1,26 @@
+.img-container{
+    position: relative;
+}
+.img-container img{
+    height: 500px;
+    width: 100%;
+}
+.img-container .information-box{
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    color: white;
+    font-weight: 500;
+    line-height: 1;
+}
+@font-face {
+    src: url("../../assets/fonts/GT-America-Extended-Black-Italic.otf");
+    font-family: "GT GT-America-Extended-Black-Italic";
+}
+.information-box h3{
+    font-family: "GT GT-America-Extended-Black-Italic";
+}
+.description-text{
+    margin-top: 35px;
+    margin-left: 10px;
+}
